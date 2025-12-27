@@ -1,8 +1,11 @@
+name: Divya workflow
+
 on:
- push
+  push
+  
 jobs:
- divya-job1:
-  runs-on: ubuntu-latest
-  steps:
-     -name:message
-      run:echo"welcome to Divya's GHA repo"
+  divya-job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: message
+        run:echo "welcome to Divya's GHA repo"
